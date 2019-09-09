@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <img className="pc" src={pc} alt="PC" />
       </div>
-      <Link to="main" spy={true} smooth={true} duration={500}>
+      <Link to="title-boxes" spy={true} smooth={true} duration={500}>
         <img className="arrow" src={arrow} alt="arrow" />
       </Link>
     </div>

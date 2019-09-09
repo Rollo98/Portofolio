@@ -78,7 +78,7 @@ li {
   margin-top: 5vh;
   color: black;
   opacity: 0.7;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template: 1fr 1fr; */
 }
 
 .hero h1 {
@@ -89,9 +89,15 @@ li {
   text-align: center
 }
 
+.title {
+  max-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
 .hero .pc {
   margin: auto;
-  width: 60%;
+  width: 50%;
 }
 
 .arrow {
@@ -103,11 +109,71 @@ li {
   animation: bounce 0.5s infinite alternate
 }
 
+.skills {
+  display: grid;
+  /* grid-template: 1fr 1fr; */
+  grid-gap: 5vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #5E5E5E
+}
+
+.skill {
+  background-color: #E7E7E7;
+  -webkit-box-shadow: 0px 10px 0px 0px #989898;
+  -moz-box-shadow: 0px 10px 0px 0px #989898;
+  box-shadow: 0px 10px 0px 0px #989898;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5vw;
+}
+
+.skill p {
+  margin-bottom: 3vh;
+  font-weight: 600;
+  font-size: 2.1em;
+}
+
+.skill li {
+  font-size: 1.7em;
+  font-weight: 500;
+  list-style-type: none;
+  line-height: 1.4;
+}
+
+.icon {
+  transform: translateY(0.7vh)
+}
+
+.underline {
+  border-bottom: 10px solid #C4C4C4;
+  border-radius: 30px;
+  width: 150px;
+  margin: auto;
+}
+
+.title-boxes {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.7em;
+  color: #5E5E5E;
+  text-align: center;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.works {}
+
 /* ------ Media Query ------ */
 
 @media only screen and (min-width:650px) {
   .hero {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .hero .pc {
+    width: 60%;
   }
 
   .title {
@@ -122,12 +188,38 @@ li {
   }
 
   .title h1 {
+    align-self: center;
     font-size: 2.5em
   }
 
   .arrow {
     left: 50%;
     transform: translateX(0)
+  }
+
+  .skills {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+  }
+
+  .skill {
+    margin: 0 5vw 0 5vw;
+    border-radius: 30px;
+    -webkit-box-shadow: 15px 10px 0px 0px #989898;
+    -moz-box-shadow: 15px 10px 0px 0px #989898;
+    box-shadow: 15px 10px 0px 0px #989898;
+  }
+
+  .title-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+  }
+
+  .underline {
+    margin: 0;
+    transform: translateX(-1vw)
   }
 }
 
@@ -139,6 +231,6 @@ li {
   }
 
   to {
-    transform: translateY(-20%) scale(1.2)
+    transform: translateY(-20%) scale(0.8)
   }
 }
