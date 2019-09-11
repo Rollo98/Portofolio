@@ -5,15 +5,16 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src={logo} alt="Logo" />
+        <h1>Portofolio</h1>
+        {/* <img src={logo} alt="Logo" /> */}
       </div>
-      {/* <div className="nav-buttons">
+      <div className="nav-buttons">
         <ul>
           <li>GitHub</li>
           <li>Resume</li>
           <li>LinkedIn</li>
         </ul>
-      </div> */}
+      </div>
     </div>
   )
 }

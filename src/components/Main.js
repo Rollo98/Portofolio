@@ -11,7 +11,7 @@ const Main = () => {
       <Header />
       <Hero />
       <Skills />
-      <Works />
+      {/* <Works /> */}
     </div>
   )
 }
