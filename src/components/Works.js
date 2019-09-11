@@ -1,4 +1,11 @@
 import React from 'react'
+import data from '../assets/data'
+
+const renderWorks = (data = []) => {
+  if (!Array.isArray(data)) {
+    return <h1>Data format does not comply with the design regulations.</h1>
+  }
+}
 
 const Works = () => {
   return (
@@ -7,7 +14,7 @@ const Works = () => {
         Works
         <div className="underline"></div>
       </h1>
-      <div className="works">aici e works</div>
+      <div className="works">{renderWorks(data.works)}</div>
     </div>
   )
 }

@@ -1,15 +1,7 @@
 import React from 'react'
 import pc from '../assets/PC.svg'
 import arrow from '../assets/arrow.svg'
-import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll,
-  scrollSpy,
-  scroller
-} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (

@@ -5,9 +5,12 @@
 /* ------ Phone ------ */
 
 body {
+  height: 95vh;
   margin: 0;
   padding: 0;
   background-color: #F2F2F2;
+  /* background: url('./assets/Subtractbg.svg') no-repeat center; */
+  /* background-size: cover; */
   box-sizing: border-box
 }
 
@@ -16,8 +19,20 @@ body {
 *::before {
   margin: 0;
   padding: 0;
-
 }
+
+/* #left {
+  width: 25vh;
+  position: absolute;
+  top: 40%;
+}
+
+#right {
+  right: 0;
+  width: 50vh;
+  position: absolute;
+  z-index: 1;
+} */
 
 li {
   font-family: "Montserrat", sans-serif;
