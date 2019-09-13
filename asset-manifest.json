@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.b5589ad3.chunk.css",
-    "main.js": "/Portofolio/static/js/main.f2f7ed01.chunk.js",
-    "main.js.map": "/Portofolio/static/js/main.f2f7ed01.chunk.js.map",
+    "main.css": "/Portofolio/static/css/main.0c844f87.chunk.css",
+    "main.js": "/Portofolio/static/js/main.9873349b.chunk.js",
+    "main.js.map": "/Portofolio/static/js/main.9873349b.chunk.js.map",
     "runtime~main.js": "/Portofolio/static/js/runtime~main.ebfb29b4.js",
     "runtime~main.js.map": "/Portofolio/static/js/runtime~main.ebfb29b4.js.map",
-    "static/js/2.0fd60a1b.chunk.js": "/Portofolio/static/js/2.0fd60a1b.chunk.js",
-    "static/js/2.0fd60a1b.chunk.js.map": "/Portofolio/static/js/2.0fd60a1b.chunk.js.map",
+    "static/js/2.932843a6.chunk.js": "/Portofolio/static/js/2.932843a6.chunk.js",
+    "static/js/2.932843a6.chunk.js.map": "/Portofolio/static/js/2.932843a6.chunk.js.map",
     "index.html": "/Portofolio/index.html",
-    "precache-manifest.d70b6df7f36d40d96ad28bced71fa964.js": "/Portofolio/precache-manifest.d70b6df7f36d40d96ad28bced71fa964.js",
+    "precache-manifest.05b5c5751aba103cf93220fa335e83a2.js": "/Portofolio/precache-manifest.05b5c5751aba103cf93220fa335e83a2.js",
     "service-worker.js": "/Portofolio/service-worker.js",
-    "static/css/main.b5589ad3.chunk.css.map": "/Portofolio/static/css/main.b5589ad3.chunk.css.map",
-    "static/media/Ellipseleft.svg": "/Portofolio/static/media/Ellipseleft.29e8ca9d.svg",
-    "static/media/PC.svg": "/Portofolio/static/media/PC.7dc0f021.svg",
-    "static/media/Polygonright.svg": "/Portofolio/static/media/Polygonright.13bfe111.svg",
-    "static/media/index.css": "/Portofolio/static/media/Subtractbg.36dfea23.svg",
-    "static/media/UnionarrowGrad.svg": "/Portofolio/static/media/UnionarrowGrad.24e26be6.svg"
+    "static/css/main.0c844f87.chunk.css.map": "/Portofolio/static/css/main.0c844f87.chunk.css.map",
+    "static/media/arrowGrad.svg": "/Portofolio/static/media/arrowGrad.24e26be6.svg",
+    "static/media/index.css": "/Portofolio/static/media/bg3.5899bac6.svg",
+    "static/media/left1.svg": "/Portofolio/static/media/left1.29e8ca9d.svg",
+    "static/media/left2.svg": "/Portofolio/static/media/left2.cf985795.svg",
+    "static/media/right1.svg": "/Portofolio/static/media/right1.13bfe111.svg",
+    "static/media/right2.svg": "/Portofolio/static/media/right2.510d2e7c.svg"
   }
 }
