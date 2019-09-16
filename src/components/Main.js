@@ -4,6 +4,7 @@ import Header from './Header'
 import Hero from './Hero'
 import Skills from './Skills'
 import Works from './Works'
+import Footer from './Footer'
 
 const Main = () => {
   return (
@@ -11,7 +12,8 @@ const Main = () => {
       <Header />
       <Hero />
       <Skills />
-      {/* <Works /> */}
+      <Works />
+      <Footer />
     </div>
   )
 }

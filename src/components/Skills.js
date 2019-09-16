@@ -10,10 +10,14 @@ import {
   FaJava,
   FaGithub
 } from 'react-icons/fa'
+import left from '../assets/left2.svg'
+import right from '../assets/right2.svg'
 
 const Skills = () => {
   return (
-    <div>
+    <div className="skill-wrapper">
+      <img id="left2" src={left} alt="left2" />
+      <img id="right2" src={right} alt="right2" />
       <h1 className="title-boxes">
         Skills
         <div className="underline"></div>
