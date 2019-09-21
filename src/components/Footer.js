@@ -15,7 +15,10 @@ const Footer = () => {
         <div className="contact">
           <h1>Contact</h1>
           <p>
-            <MdContactMail className="footer-icon" /> roland.paiusan98@gmail.com
+            <a href="mailto:roland.paiusan98@gmail.com">
+              <MdContactMail className="footer-icon" />{' '}
+              roland.paiusan98@gmail.com
+            </a>
           </p>
         </div>
         <div className="social">
