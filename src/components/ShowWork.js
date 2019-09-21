@@ -2,6 +2,8 @@ import React from 'react'
 import data from '../assets/data'
 
 const ShowWork = props => {
+  if (data.works[props.id - 1] === undefined)
+    return (window.location.href = '/404')
   console.log(data.works[props.id - 1])
   const workData = data.works[props.id - 1]
   return (

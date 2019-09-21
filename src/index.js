@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import './index.css'
 import App from './pages/App'
@@ -13,12 +13,20 @@ import * as serviceWorker from './serviceWorker'
 ReactDOM.render(
   <BrowserRouter>
     <App>
-      <Route exact path={process.env.PUBLIC_URL + '/'} component={Main} />
-      <Route
-        exact
-        path={process.env.PUBLIC_URL + '/work/:id'}
-        component={props => <ShowWork id={props.match.params.id} />}
-      />
+      <Switch>
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Main} />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + '/work/:id'}
+          component={props => <ShowWork id={props.match.params.id} />}
+        />
+        <Route component={Error404} />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + '/404'}
+          component={Error404}
+        />
+      </Switch>
     </App>
   </BrowserRouter>,
   document.getElementById('root')
